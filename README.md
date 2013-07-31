@@ -18,3 +18,7 @@ The source code includes the following functions:
 4, imitation qq Settings and login interface;   
 5, pppoe dial-up call rp - pppoe implementation;   
 Relative to the same type of software has solved the DNS, issues of routing table changes.  
+
+
+![Image text](http://github.com/awendemo/pppoe-android-app/raw/master/img/1.jpg)
+![Image text](http://github.com/awendemo/pppoe-android-app/raw/master/img/2.jpg)
