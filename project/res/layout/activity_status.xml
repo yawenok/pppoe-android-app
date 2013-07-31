@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FEEEEEEE"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titleStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/skin_title"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/pppoe_status"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/titleStatus"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/textNull" />
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/status_connect"
+            android:textColor="#FF808040"
+            android:textSize="18sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnHangUp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@xml/btn_style_2"
+            android:text="@string/pppoe_disconnect"
+            android:textColor="#FFF0F0F0"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

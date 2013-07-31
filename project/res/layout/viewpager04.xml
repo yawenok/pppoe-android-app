@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FEEEEEEE"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/Whats_Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/what04"
+        android:padding="6dp"
+        android:text="@string/whatsnew_page04" />
+
+    <Button
+        android:id="@+id/btnMainStart"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@xml/btn_style_1"
+        android:onClick="clickStart"
+        android:text="@string/whatsnew_start"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

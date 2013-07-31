@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/hope0"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/hope1"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/hope2"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/hope3"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/hope4"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/hope5"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/hope6"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/hope7"
+        android:duration="100"/>
+
+</animation-list>

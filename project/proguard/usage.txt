@@ -1,0 +1,43 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+pppoe.control.WiperSwitchTouch:
+    104:104:public boolean getChecked()
+pppoe.encrypt.Command:
+    35:37:public void debugRootCommand(java.lang.String)
+    141:142:public boolean isFileExists(java.lang.String)
+pppoe.school.ActivityStatus$DnsFlags
+pppoe.school.ActivityStatus$NetFlags
+pppoe.school.AppConfig:
+    public static final java.lang.String APP_SAVE_INFO
+    public static final java.lang.String APP_VERSION
+    public static final java.lang.String INFO_VERSION
+    public static final java.lang.String INFO_USER
+    public static final java.lang.String INFO_PASSWORD
+    public static final java.lang.String INFO_ETHERNET
+    public static final java.lang.String INFO_TELECOM
+    public static final java.lang.String INFO_MONITOR
+    public static final int TYPE_DEFAULT
+    public static final int TYPE_NORMAL
+    public static final int TYPE_TELECOM
+pppoe.school.AppConfig$DialType
+pppoe.school.AppLog:
+    private static final java.lang.String TAG
+    5:5:public AppLog()
+pppoe.school.AppStatus:
+    public static final int STATE_CONNECT
+    public static final int STATE_DISCONNECT
+    public static final int STATE_ERROR
+    public static final int STATE_HAS_PPPD
+pppoe.school.AppValue
+pppoe.school.BuildConfig
+pppoe.school.R
+pppoe.school.R$attr
+pppoe.school.R$color
+pppoe.school.R$drawable
+pppoe.school.R$id
+pppoe.school.R$layout
+pppoe.school.R$string
+pppoe.school.R$style
+pppoe.school.R$xml
+pppoe.school.TipDialog:
+    21:23:public void setTip(java.lang.String)

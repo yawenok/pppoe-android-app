@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FEEEEEEE"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/Whats_Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/what03"
+        android:padding="6dp"
+        android:text="@string/whatsnew_page03" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@xml/shape_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:background="@xml/btn_style_6"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:minHeight="45dp"
+            android:onClick="typeClick"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textTelecom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.0"
+                android:text="@string/settings_type"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="1.5dp"
+                android:contentDescription="@string/textNull"
+                android:src="@drawable/icon_into" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

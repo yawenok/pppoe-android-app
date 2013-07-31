@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">宽带拨号助手</string>
+    <string name="app_title">PPPoE宽带拨号助手</string>
+    
+    <string name="hint_edituser">请输入账号</string>
+    <string name="hint_editpassword">请输入密码</string>
+    <string name="hint_editaddress">请输入地址</string>
+     
+    <string name="edituser">账号： </string>
+    <string name="editpassword">密码：</string>
+    
+    <string name="textsettings">拨号设置？</string>
+    <string name="textCopy">复制！</string>
+    
+    <string name="dialer_settings">拨号设置</string>
+    <string name="settings_back">返回</string>
+    <string name="settings_save">保存设置</string>
+    <string name="settings_download">软件源码</string>
+    
+    <string name="settings_type">拨号模式设置</string>
+    <string name="type_normal">普通宽带模式</string>
+<!-- <string name="type_telecom">电信校园网模式</string> -->    
+    <string name="type_henanunicom">河南联通模式</string>
+    
+    <string name="settings_ethnet">优先使用有线网卡</string>
+    <string name="settings_monitor">网络状态提示</string>
+    <string name="settings_reset">软件重置</string>
+    
+    <string name="pppoe_connect">连接网络</string>
+    <string name="pppoe_disconnect">断开网络</string>
+    <string name="pppoe_check">故障检测</string>
+    <string name="pppoe_return">返回重试</string>
+    <string name="pppoe_status">拨号状态</string>
+
+    <string name="status_connect">RP值还行吧，拨号进程已经建立！PS:试试能不能上网吧！</string>
+    <string name="status_disconnect">PPPoE拨号进程已停止！重新拨号吧~~</string>
+    <string name="status_error">RP值太低，存在设备故障！</string>
+    <string name="status_test">网络连接测试</string>
+    <string name="status_ok">后台监控</string>
+    
+    <string name="what_version">关于2.0版</string>
+	<string name="what_this">"Android平台的宽带拨号利器 ^_^"</string>
+	<string name="what_contact">"联系方式"</string>
+	<string name="what_question">"  使用须知"</string>
+	<string name="what_konwn">"1.手机必须已经完全Root！\n2.拨号模式是针对不同用户而言的，不清楚就不要切换！\n3.对于X86和MIPS架构的手机不可用！"</string>
+	<string name="what_slution">"  故障解决"</string>
+	<string name="what_error">"1.家里面大部分使用的是普通宽带，拨号模式不要设置错了哦！\n2.有些手机Rom不支持PPPoE拨号，那就木有办法了，这是程序没法控制的~~\n3.原理是移植了rp-pppoe，这是手机系统中没有的组件。但是有些手机的系统被优化了，因此组件的环境不可用，拨不上号，那就没法了(@﹏@)~ \n4.这宽软件针对android系统进行PPPoE拨号，如果手机连接无线路由器拨号，那么路由器要设置为交换机模式！被阉割路由功能的电信猫，连接上就直接拨号！"</string>
+	<string name="what_about">"  软件说明"</string>
+	<string name="what_content">"1.类型的拨号模式均来源于网络，不确定能用啦，只是加上去玩玩，不提供算法更新和其他服务的支持！\n2.此软件是为了学习交流而开发，大量的素材和算法来源于网络，如有侵权请告知！\n\n仅仅为了学习和交流，不用于任何商业用途！\n(邮箱：yawenok@126.com)"</string>
+	
+	
+    <string name="whatsnew_page01">"如果你的手机已经正确root，那么可以试试此它！\n没有Root的话就不用试了~~"</string>
+    <string name="whatsnew_page02">"除普通宽带外，加入了特定类型的拨号模式（如校园网，河南网通），不懂就不要弄了-_-!"</string>
+    <string name="whatsnew_page03">"根据当地情况设置拨号模式！\n算法收集于网上，不确定能用哈(@﹏@)~ \n不清楚拨号类型就不要设置了！"</string>
+    <string name="whatsnew_page04">"囧~~哥们！行不行看你的RP值了！\n有些手机的Rom是不支持的哦~~\n如果Rom不支持，那就没法了，这是程序没法控制的！"</string>
+	<string name="whatsnew_start">"开始使用"</string>
+	
+	<string name="textNull"></string>
+</resources>

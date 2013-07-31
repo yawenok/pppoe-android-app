@@ -1,0 +1,41 @@
+# view res/layout/viewpagers.xml #generated:13
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_settings.xml #generated:109
+# view res/layout/activity_settings.xml #generated:77
+-keep class pppoe.control.WiperSwitchTouch { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class pppoe.school.ActivityAbout { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class pppoe.school.ActivityMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class pppoe.school.ActivitySettings { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class pppoe.school.ActivityStatus { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class pppoe.school.ActivityWelcome { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class pppoe.school.ActivityWhatsNew { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class pppoe.school.PPPoEService { <init>(...); }
+
+# onClick res/layout/activity_settings.xml #generated:209
+-keepclassmembers class * { *** aboutClick(...); }
+
+# onClick res/layout/viewpager04.xml #generated:17
+-keepclassmembers class * { *** clickStart(...); }
+
+# onClick res/layout/activity_settings.xml #generated:173
+-keepclassmembers class * { *** downloadClick(...); }
+
+# onClick res/layout/activity_settings.xml #generated:135
+# onClick res/layout/viewpager03.xml #generated:27
+-keepclassmembers class * { *** typeClick(...); }
+

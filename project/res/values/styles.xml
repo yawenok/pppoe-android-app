@@ -1,0 +1,20 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="sc_transparent">#00FFFFFF</color>
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar" />
+
+    <style name="Dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/sc_transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Whats_Text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF808040</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+
+</resources>
