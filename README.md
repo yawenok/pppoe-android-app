@@ -6,7 +6,7 @@ android-pppoe-app
 2、网络状态的判断；  
 3、仿微信的开始界面；  
 4、仿qq的设置和登陆界面；  
-5、调用rp-pppoe实现PPPoE拨号；
+5、调用rp-pppoe实现PPPoE拨号；  
 相对于同类型，软件已经解决了dns获取，路由表修改等问题。
   
   
