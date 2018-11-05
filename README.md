@@ -1,6 +1,7 @@
 # android-pppoe-app
 
-此源码是基于android系统的PPPoE拨号软件，由于大部分的android系统没有集成PPPoE拨号功能，那就只能自己实现了啥~~   
+## 简介
+此源码是基于android系统的PPPoE拨号软件，由于大部分的android系统没有集成PPPoE拨号功能，那就只能自己实现了~~   
 源码中包含了以下功能：
 
 1. shell命令的执行；  
@@ -11,6 +12,7 @@
 
 相对于同类型，软件已经解决了dns获取，路由表修改等问题。
 
+# Abstract
 This source code is the PPPoE dial-up software based on android system, because most of the android system does not have integrated PPPoE dial-up functionality, that will have to implement this functionality 
 The source code includes the following functions:
 
