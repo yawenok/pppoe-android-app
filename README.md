@@ -20,5 +20,5 @@ The source code includes the following functions:
 Relative to the same type of software has solved the DNS, issues of routing table changes.  
 
 
-![Image text](http://github.com/yawenok/pppoe-android-app/raw/master/img/1.jpg)
-![Image text](http://github.com/yawenok/pppoe-android-app/raw/master/img/2.jpg)
+![Image text](https://raw.githubusercontent.com/yawenok/pppoe-android-app/master/img/1.jpg)
+![Image text](https://raw.githubusercontent.com/yawenok/pppoe-android-app/master/img/2.jpg)
